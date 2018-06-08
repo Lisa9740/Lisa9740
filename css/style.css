@@ -26,7 +26,15 @@
               .border-lgreen{
                 border: 8px solid #E1F3DB;
             }
-            /* autres */
+
+
+            .bg-color-blue{
+                background-color: #141442;
+            }
+            /* autres liens github*/
+            p > a{
+                color:black;
+            }
 
 
 /*portfolio*/
