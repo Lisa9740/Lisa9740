@@ -1,0 +1,13 @@
+/*nav*/
+
+.bg-trianglify-nav{
+    background-image: url('img/trianglify.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    }
+
+    .bg-trianglify{
+        background-image: url('img/trianglify.png');
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        }
