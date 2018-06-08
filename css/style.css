@@ -23,7 +23,9 @@
     
             border : 5px white double;
             }
-
+              .border-lgreen{
+                border: 8px solid #E1F3DB;
+            }
             /* autres */
 
 
