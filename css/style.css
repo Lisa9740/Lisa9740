@@ -4,6 +4,8 @@
     background-image: url('img/trianglify.png');
     background-size: cover; 
     background-repeat: no-repeat; 
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(245, 235, 235, 0.274);
     }
 
     .bg-trianglify{
@@ -26,7 +28,9 @@
               .border-lgreen{
                 border: 8px solid #E1F3DB;
             }
-
+.color-lgreen{
+    color: #0fbd91;
+}
 
             .bg-color-blue{
                 background-color: #141442;
@@ -35,7 +39,9 @@
             p > a{
                 color:black;
             }
-
+            .color-dblue{
+                color: #141442;
+            }
 
 /*portfolio*/
 .overlay-text {
@@ -49,9 +55,15 @@
     background: rgba(45, 136, 131, 0.7);
     transition: 0.3s linear;
     cursor: pointer;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.274);
 }
 .overlay-img:hover .overlay-text {
     opacity: 1;
+}
+.img-fluid {
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.274);
 }
 /* timeline*/
 .timeline {
@@ -101,6 +113,8 @@
     margin: 10px 0px 21px 70px;
     clear: both;
     border: 2px solid #141442;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.274);
 }
 
 .timeline .panel::before {

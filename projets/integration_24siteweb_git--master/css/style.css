@@ -1,0 +1,178 @@
+@import url(knacss.css);
+
+/* @author : Prénom NOM */
+/* @date : 25/12/2016 */
+/* @bugfix : erreur à régler */
+/* @todo : à faire */
+/* @note :  */
+
+
+/* ----------------------------- */
+/* summary */
+/* ----------------------------- */
+/*
+1- couleurs
+2- base styles
+3- nav
+3- header
+4- main
+5- aside
+6- contact
+7- footer
+8- adaptive web design
+*/
+
+/* ----------------------------- */
+/* ==couleurs */
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+/* ==base styles */
+/* ----------------------------- */
+/* importation style de base avec @import url(knacss.css); */
+
+
+/* ----------------------------- */
+body{
+    background:#F8F9EB;
+} 
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+} 
+
+
+
+
+/* ----------------------------- */
+/* ==header */
+/* ----------------------------- */
+
+header{
+    background: url('../img/index_fond.png') no-repeat;
+    width: 100%;
+    height: 500px;
+} 
+
+.logo{
+    text-align: center;
+    position: absolute;
+    left: 23%;
+    width: 50%;
+    font-size: 12px;
+    color:#B46266;  
+    z-index: 2;
+} 
+
+.logo img{
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+} 
+
+.compo--visuelle{
+    background: url('../img/particles.png');
+    position: absolute;
+    left: 23%;
+    z-index: 1
+} 
+
+
+/* ----------------------------- */
+/* ==main */
+/* ----------------------------- */
+
+.line--line{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin: 0 auto;
+} 
+
+.line--line li{
+    list-style-type: none;
+    border: 2px solid#fff; 
+    color:#222;    
+} 
+
+.line--line p{
+    padding: 15px;
+} 
+
+.lightgreen{
+    background:#ADCEB8; 
+} 
+
+.orange{
+   background:#ECC7A1;  
+} 
+
+.lightblue{
+    background:#CAEADE; 
+} 
+
+
+.etiquette{
+    width: 20px;
+    font-weight: bold;
+    margin: 15px;
+   transform: rotate(-20deg);
+    color:#fff;  
+} 
+
+.vert{
+    background:#76927f;
+} 
+
+.rouge{
+    background:#AA5D61;
+} 
+
+.bleu{
+    background:#2D6F8A;
+} 
+
+
+/* ----------------------------- */
+/* ==aside */
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+/* ==contact */
+/* ----------------------------- */
+
+
+/* ----------------------------- */
+/* ==footer */
+/* ----------------------------- */
+
+
+footer{
+    background:#AA5D60;
+    padding-top: 30px;
+    color:#fff;  
+} 
+
+footer a{
+    color:#fff; 
+} 
+.text--call-done{
+    margin-left: 20%;
+    margin-right: 20%;
+} 
+.copyright{
+    background:#F8F9EB; 
+    color:#222;
+    padding: 20px;
+    text-align: center; 
+} 
+
+/* ----------------------------- */
+/* ==adaptive web design */
+/* ----------------------------- */
+
+

@@ -1,0 +1,21 @@
+Intégration d'une maquette graphique
+
+0/Indications:
+ . adresse maquette: spec/maquette_24.png
+ . travail en binome
+ . ressources illimités (en ligne, sur l'ordinateur)
+ . technologies : html/css
+
+1/ Renommer dossier:
+ . 24_site-web_NOM1_NOM2
+
+2/ Ressources à utiliser:
+ . index.html
+ . css/style.css
+ . img/ pour les images
+
+3/ Critères à respecter:
+ . code lisible, indenté et commenté
+ . mise en page (presque) identique à la maquette fournie
+
+
