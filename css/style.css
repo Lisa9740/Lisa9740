@@ -7,6 +7,9 @@ a:hover {
 }
 
 /*nav*/
+body > section  {
+    background-color: #f3eeee;
+}
 
 .bg-trianglify-nav{
     background-image: url('img/trianglify.png');
