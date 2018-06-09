@@ -1,0 +1,46 @@
+section {
+    font-family: "Raleway", sans-serif;
+}
+header{
+    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+}
+.texte-image{
+    background:linear-gradient(rgba(233, 233, 233, 0.582), rgba(252, 249, 249, 0.7)), url("img/fond.jpg");
+}
+.color-green{
+    color:#71d1d3;
+}
+.color-green2{
+    color:#7be2c2;
+}
+.color-blue{
+    color:#0c2e8a;
+}
+.bg-color-green{
+    background-color:#71d1d3;
+}
+.bg-color-blue{
+    background-color:#0c2e8a;
+}
+.width-80{
+    width: 80%;
+}
+.barre{
+    border: 2px solid #71d1d3; 
+    color:#71d1d3;
+    width: 60px;
+   
+}
+.darkblue{
+background-color: #081e5b;
+}
+.bg-grey{
+    background-color: #f2f5f8;
+}
+.img-slide{
+    width: 25%;
+}
+.style-border{
+    border-right: 1px solid grey;
+}
