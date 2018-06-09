@@ -1,0 +1,238 @@
+   <section class="container-fluid text-center justify-content-center  mt-3 bg-light pb-5 ">
+        <div class="container">
+            <h1 class="  mt-5 mb-5 pt-5 "> Mon parcours</h1>
+
+            <div class="timeline">
+            
+                <div class="line">  </div>
+                <div class="separator text-muted">
+                     
+                    <article class="panel panel-primary  bg-main-color2 rounded p-3">
+
+                        <!-- Icon -->
+                        <div class="panel-heading icon">
+                            <i class="glyphicon glyphicon-plus"></i>
+                        </div>
+                        <!-- /Icon -->
+
+                        <!-- Heading -->
+                        <div class="panel-heading bg-main-color2 rounded p-2 ">
+                            <a href="https://simplonreunion.co" target="_blank">
+                                <img src="css/img/logo-simplon.png" class="my-3" alt="logo de simplon"> </a>
+                            <h2 class="panel-title"> Mai 2018 - POEC Simplon Réunion </h2>
+                        </div>
+                        <!-- /Heading -->
+
+                        <!-- Body -->
+                        <div class="panel-body ">
+
+
+                        </div>
+                        <!-- /Body -->
+
+
+
+                    </article>
+                    <!-- /Panel -->
+                </div>
+                <div class="line text-muted"></div>
+                <div class="separator text-muted">
+                    <article class="panel panel-primary p-3 bg-main-color2 rounded">
+
+                        <!-- Icon -->
+                        <div class="panel-heading icon">
+                            <i class="glyphicon glyphicon-plus"></i>
+                        </div>
+                        <!-- /Icon -->
+
+                        <!-- Heading -->
+                        <div class="panel-heading bg-main-color2 rounded p-2">
+                            <img src="css/img/logo_afpar.png" class="rounded-circle img-fluid" alt="logo Afpar">
+                            <h2 class="panel-title"> 2017 - 2018 - Digital Starter </h2>
+                        </div>
+                        <!-- /Heading -->
+
+                        <!-- Body -->
+                        <div class="panel-body">
+                            <p> Formation qui permet la consolidation des compétences en informatique <br/> Stage en domotique.</p>
+                        </div>
+                        <!-- /Body -->
+
+
+
+                    </article>
+                    <!-- /Panel -->
+                </div>
+                 <div class="line text-muted"></div>
+            <div class="separator text-muted">
+                <article class="panel panel-primary p-3 bg-main-color2 rounded">
+
+                 
+                    <div class="panel-heading icon">
+                        <i class="glyphicon glyphicon-plus"></i>
+                    </div>
+                   
+                    <div class="panel-heading bg-main-color2 rounded p-2 ">
+                            <i class="fas fa-book fa-5x  "> </i>
+                        <h3 class="panel-title mt-3 "> 2017 - L1 Littérature de la langue anglaise </h3>
+                    </div>
+               
+                    <div class="panel-body">
+                           <p>Université de la Réunion </p> 
+                    </div>
+           
+                </article>
+            </div>
+            <div class="line text-muted"></div>
+            <div class="separator text-muted">
+                <article class="panel panel-primary p-3 bg-main-color2 rounded">
+
+            
+                    <div class="panel-heading icon">
+                        <i class="glyphicon glyphicon-plus"></i>
+                    </div>
+
+
+   
+                    <div class="panel-heading bg-main-color2  rounded">
+                            <i class="fas fa-book fa-5x mb-3 ">
+                        <h3 class="panel-title mt-3"> 2016 - L1 Eco-gestion </h3></i>
+                    </div>
+   
+
+                    <div class="panel-body">
+                            <p> Université de la Réunion</p>
+                    </div>
+                 
+
+                </article> 
+                <!-- /Panel -->
+               </div> 
+                <div class="separator text-muted">
+                    <article class="panel panel-primary bg-main-color2 rounded  p-3">
+
+                        <!-- Icon -->
+                        <div class="panel-heading icon">
+                            <i class="glyphicon glyphicon-plus"></i>
+                        </div>
+                        <!-- /Icon -->
+
+                        <!-- Heading -->
+                        <div class="panel-heading bg-main-color2 rounded">
+                          
+                                <i class="fas fa-graduation-cap fa-5x">
+                            <h3 class="panel-title"> 2015 - Baccalauréat STMG </h3> </i>
+                        </div>
+                        <!-- /Heading -->
+
+                        <!-- Body -->
+                        <div class="panel-body">
+                                <p> Formation qui permet la consolidation des compétences en informatique </p>
+                        </div>
+                        <!-- /Body -->
+
+
+
+                    </article>
+                    <!-- /Panel -->
+                </div>
+            </div>
+            <!-- Panel -->
+
+
+        </div>
+    </section>
+    /* timeline*/
+.timeline {
+    position: relative;
+    padding: 21px 0px 10px;
+    margin-top: 4px;
+    margin-bottom: 30px;
+
+}
+
+.timeline .line {
+    position: absolute;
+    width: 4px;
+    display: block;
+    background: #141442;;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 30px;
+   
+}
+
+.timeline .separator {
+   
+    padding: 5px;
+    padding-left: 40px;
+    font-style: italic;
+    font-size: .9em;
+    margin-left: 30px;
+}
+
+.timeline .line::before { top: -4px; }
+.timeline .line::after { bottom: -4px; }
+.timeline .line::before,
+.timeline .line::after {
+    content: '';
+    position: absolute;
+    left: -4px;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 50%;
+    background:#141442;
+}
+
+.timeline .panel {
+    position: relative;
+    margin: 10px 0px 21px 70px;
+    clear: both;
+    border: 2px solid #141442;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.274);
+}
+
+.timeline .panel::before {
+    position: absolute;
+    display: block;
+    top: 8px;
+    left: -24px;
+    content: '';
+    width: 0px;
+    height: 0px;
+    border: inherit;
+    border-width: 12px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+
+.timeline .panel .panel-heading.icon * { font-size: 20px; vertical-align: middle; line-height: 100px; }
+.timeline .panel .panel-heading.icon {
+    position: absolute;
+    left: -59px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+
+.timeline .panel-outline {
+    border-color: transparent;
+    background: transparent;
+    box-shadow: none;
+}
+
+.timeline .panel-outline .panel-body {
+    padding: 10px 0px;
+}
+
+.timeline .panel-outline .panel-heading:not(.icon),
+.timeline .panel-outline .panel-footer {
+    display: none;
+}
