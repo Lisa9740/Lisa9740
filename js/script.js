@@ -71,9 +71,13 @@ $(document).ready(function(){
         //   $(".no-bg").css("box-shadow" , "0 1px 6px rgba(0, 0, 0, 0.274)");
         }else if (scroll > 50 && scroll < 300) {
           $(".no-bg").css("background" , "white");
+         
+        }else if (scroll == 0){
+          $("#totop").css("display", "none");
         }
         else{
-            $(".no-bg").css("background" , "transparent");  	
+            $(".no-bg").css("background" , "transparent");
+            $("#totop").css("display", "block");  	
         }
     })
     

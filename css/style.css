@@ -8,7 +8,13 @@ a:hover {
 a > i:hover {
  color: black;
 }
-
+#totop {
+  color: #95D4C4;
+} 
+.hr-style{
+width: 100px;
+border: 3px solid #0E3959;
+}
 /*nav*/
 body > section  {
     background-color: #f3eeee;
@@ -75,7 +81,13 @@ body > section  {
             .color-dblue{
                 color: #141442;
             }
+            .color-dblue2{
+              color: #0E3959;
+          }
 
+          .border-blue{
+            border : 2px solid #141442;
+          }
 /*portfolio*/
 .overlay-text {
     z-index: 2;
@@ -118,7 +130,7 @@ body > section  {
 
 /*timeline */
 .intro {
-    background: #F45B69;
+    background: #0E3959;
     padding: 100px 0;
   }
   
@@ -275,3 +287,4 @@ body > section  {
       border-color: transparent #F45B69 transparent transparent;
     }
   }
+
