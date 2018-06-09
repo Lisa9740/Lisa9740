@@ -12,9 +12,10 @@ a > i:hover {
 /*nav*/
 body > section  {
     background-color: #f3eeee;
-    scrollbar: #1A6DAA;
+    
  
 }
+
 ::-webkit-scrollbar {
   width: 20px;
 }

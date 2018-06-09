@@ -78,6 +78,7 @@ $(document).ready(function(){
             $(".no-bg").css("background" , "transparent");  	
         }
     })
+    
   })
 
   // pour un "smooth anchor scolling"
@@ -134,3 +135,9 @@ $(document).ready(function(){
     window.addEventListener("scroll", callbackFunc);
   
   })();
+
+
+
+  $(".navbar-toggler").click(function(){
+    $(".navbar-collapse").css("background", "#f3eeee");
+  })
