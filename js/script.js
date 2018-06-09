@@ -1,10 +1,7 @@
-//pour animation hover sous le menu
-var angle = 0;
-function galleryspin(sign) { 
-spinner = document.querySelector("#spinner");
-if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
-spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
-}
+$(".navbar-toggler").click(function(){
+  $(".navbar-collapse").css("background", "#f3eeee");
+})
+
 
 // pour animation texte dans le header//
 var TxtType = function(el, toRotate, period) {
@@ -72,8 +69,9 @@ $(document).ready(function(){
         if (scroll > 300) {
           $(".no-bg").css("background" , "url('./css/img/trianglify.png')");
         //   $(".no-bg").css("box-shadow" , "0 1px 6px rgba(0, 0, 0, 0.274)");
+        }else if (scroll > 50 && scroll < 300) {
+          $(".no-bg").css("background" , "white");
         }
-  
         else{
             $(".no-bg").css("background" , "transparent");  	
         }
@@ -134,10 +132,8 @@ $(document).ready(function(){
     window.addEventListener("resize", callbackFunc);
     window.addEventListener("scroll", callbackFunc);
   
+
   })();
 
 
 
-  $(".navbar-toggler").click(function(){
-    $(".navbar-collapse").css("background", "#f3eeee");
-  })
