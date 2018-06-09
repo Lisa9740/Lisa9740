@@ -65,7 +65,7 @@ body > section  {
 }
 
             .bg-color-blue{
-                background-color: #141442;
+                background-color: #0E3959;
             }
             /* autres liens github*/
             p > a{
@@ -136,8 +136,8 @@ body > section  {
   /* TIMELINE
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   
-  .bg-blue-timeline{
-    background: #456990; 
+  .bg-blue{
+    background: #1A6DAA; 
   }
   .timeline ul {
     background: #fcfcfc;
