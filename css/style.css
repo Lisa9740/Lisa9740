@@ -5,6 +5,9 @@ a:hover {
       -o-transition: all .2s ease-in-out;
          transition: all .2s ease-in-out;
 }
+a > i:hover {
+ color: black;
+}
 
 /*nav*/
 body > section  {
