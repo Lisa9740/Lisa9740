@@ -61,8 +61,9 @@ window.onload = function() {
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 500) {
+        if (scroll > 300) {
           $(".no-bg").css("background" , "url('./css/img/trianglify.png')");
+        //   $(".no-bg").css("box-shadow" , "0 1px 6px rgba(0, 0, 0, 0.274)");
         }
   
         else{
