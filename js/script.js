@@ -55,3 +55,18 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+// pour changer le background quand il y a scrolling 
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 500) {
+          $(".no-bg").css("background" , "url('./css/img/trianglify.png')");
+        }
+  
+        else{
+            $(".no-bg").css("background" , "transparent");  	
+        }
+    })
+  })
