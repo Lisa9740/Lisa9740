@@ -84,13 +84,13 @@ $(document).ready(function () {
 
     } else if (scroll > 0 && scroll < 300) {
       $(".no-bg").css("background", "white");
-      $("#totop").css("transform", "rotate(180deg)");
+      $("#totop").show();
     } else if (scroll == 0) {
-      $("#totop").fadeIn("slow", 0.33);
+      $("#totop").hide();
       $(".no-bg").css("background", "transparent");
       $(".no-bg").css("box-shadow", "0 0px 0px rgba(0, 0, 0, 0.274)");
     } else {
-
+      $("#totop").show();
       $(".no-bg").css("background", "transparent");
       $("#totop").css("display", "block");
 
