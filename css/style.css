@@ -292,3 +292,8 @@ body > section  {
     z-index: 9999;
     background: url("/css/img/loader.svg") center no-repeat #fff;
   }
+  .loader_container {
+    position: relative;
+    top: 40%;
+    left: 0;
+}
