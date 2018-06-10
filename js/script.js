@@ -68,16 +68,21 @@ $(document).ready(function(){
         var scroll = $(window).scrollTop();
         if (scroll > 300) {
           $(".no-bg").css("background" , "url('./css/img/trianglify.png')");
-        //   $(".no-bg").css("box-shadow" , "0 1px 6px rgba(0, 0, 0, 0.274)");
-        }else if (scroll > 50 && scroll < 300) {
+           $(".no-bg").css("box-shadow" , "0 1px 6px rgba(0, 0, 0, 0.274)");
+           $("#totop").css("transform", "rotate(360deg)");
+        }else if (scroll > 0 && scroll < 300) {
           $(".no-bg").css("background" , "white");
          
         }else if (scroll == 0){
-          $("#totop").css("display", "none");
+          $("#totop").fadeIn("slow", 0.33);
+          $("#totop").css("transform", "rotate(180deg)");
+          $(".no-bg").css("box-shadow" , "0 0px 0px rgba(0, 0, 0, 0.274)");
         }
         else{
+      
             $(".no-bg").css("background" , "transparent");
             $("#totop").css("display", "block");  	
+         
         }
     })
     
