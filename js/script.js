@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $(window).on('load',function() {
-    $(".se-pre-con").fadeOut(500);
+    $("#se-pre-con").fadeOut(500);
 })
 
 });
