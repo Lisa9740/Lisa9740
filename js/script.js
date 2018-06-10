@@ -1,3 +1,12 @@
+$(document).ready(function(){
+$(window).on('load',function() {
+    $(".se-pre-con").fadeOut(500);
+})
+
+});
+
+
+
 $(".navbar-toggler").click(function () {
   $(".navbar-collapse").css("background", "#f3eeee");
 })
