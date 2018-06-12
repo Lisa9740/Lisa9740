@@ -79,8 +79,8 @@ $(document).ready(function () {
     var scroll = $(window).scrollTop();
     if (scroll > 300) {
       $(".no-bg").css("background", "url('./css/img/trianglify.png')");
-
-      
+      $(".no-bg").css("background-repeat", "no-repeat");
+      $(".no-bg").css("background-size", "cover");
       $(".no-bg").css("box-shadow", "0 1px 6px rgba(0, 0, 0, 0.274)");
       $("#totop").css("transform", "rotate(360deg)");
 
