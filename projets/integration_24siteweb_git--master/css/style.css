@@ -122,6 +122,12 @@ body{
     background-color: #F8F9EB;
     font-family: 'Oswald', sans-serif;
 }
+span#title {
+    padding: 20px;
+    color:#aa5d60;
+    font-size: 12px;
+    font-weight: bold;
+    }
 hr {
     border: 2px solid #ffffff;
     width: 50px;
@@ -235,7 +241,7 @@ main {
 
 .footer_article {
     padding-left: 10px;
-    padding-top: 20px;
+    
 }
 /* fin main */
 
