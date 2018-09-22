@@ -136,7 +136,9 @@ body > section  {
     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.418);
 }
-
+.img-sizing{
+  height : 200px !important;
+}
 #hover:hover{
   -webkit-transform: scale(1.08);
   transform: scale(1.50);
